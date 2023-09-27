@@ -5,7 +5,7 @@ body {
   background-color: #eae2b7;
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 40px;
+  
 }
 
 /* Headings */
@@ -15,27 +15,47 @@ h3 {
   font-family: "Playfair Display", Times, serif;
   text-align: center;
 }
-
-/* Header */
-header {
-  text-align: center;
+.container{
+  display: flex;
 }
+/* .flex-item {
+/*   text-align: right; */
+/*   width:150px;
+} */
+/* .flex-items-info{ */
+/*   text-align: right; */
+/*   width: 700px
+} */
+/* .wrapper{
+     display: flex;
+      justify-content:space-around;
+} */
 
+/*     .image{
+/*       float: left; */
+/*       margin-right: 10px;
+    } */ 
+
+/*  .group{
+      display: flex;
+     flex-direction:column;
+      justify-content:space-around;
+    } */
+    
 /* Containers */
 div {
   background-color: #eae2b7;
   margin: auto;
-  width: 600px;
+  width: 800px;
 }
 
-article {
-  padding: 50px 0;
-}
 
-article div {
+
+
+/* article div {
   text-align: center;
   width: 100%;
-}
+} */
 
 /* Paragraphs */
 p {
@@ -56,20 +76,24 @@ nav a {
 }
 
 /* Images */
+
+
+/* Images */
 img {
   width: 100%;
   max-width: 200px;
   height: auto;
+  float: right;
+  
 }
 
 .image-circle {
   border: 2px solid #003049;
   border-radius: 50%;
 }
-
 /* Footer */
 footer {
-  text-align: center;
+  text-align: left;
 }
 
 /* Other page elements */
