@@ -8,14 +8,8 @@ body {
   padding: 40px;
   max-width: 600px; margin: auto;
 }
+<style>
 
-/* Headings */
-h1,
-h2,
-h3 {
-  font-family: "Playfair Display", Times, serif;
-  text-align: center;
-}
 
 .container{
   display: flex;
@@ -56,7 +50,13 @@ div {
 }
 
 
-
+/* Headings */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
 
  .article div { */
  S
