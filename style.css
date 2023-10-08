@@ -14,12 +14,10 @@ body {
 .container{
   display: flex;
   width: 800px;
-
-  
 }
 .flex-item {
   text-align: right;
-  width: 50px'
+  width: 50px;
 }
 
 /* .flex-items-info{ */
@@ -29,7 +27,7 @@ body {
  .wrapper{ 
      display: flex;
       justify-content:space-around;
-} */
+} 
 
 /*     .image{
 /*       float: left; */
@@ -48,7 +46,7 @@ div {
   margin: auto;
   width: 600px;
 }
-</style>
+
 
 /* Headings */
 h1,
